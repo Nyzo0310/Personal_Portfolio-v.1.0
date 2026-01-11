@@ -10,4 +10,7 @@ export default defineConfig({
         }),
         react(),
     ],
+    build: {
+        outDir: 'public/dist',  // Set the output directory to 'public/dist' for Laravel integration
+    },
 });
